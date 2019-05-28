@@ -1,7 +1,7 @@
 # FinalProject
-# Project Title and purpose
+# Trap Team Scoring Program. This program is intended to compile and calculate weekly scores of a trap team and output statistics based on performance.
 
-One Paragraph of project description goes here
+This program will take in each athlete's weekly round scores, and calculate averages, ranking, and any awards they may have won that week. Team rank will also include if the athlete is varsity, JV, or Novice. 
 
 ### Difficulties or opportunities you encountered along the way.
 
@@ -36,7 +36,7 @@ This is the code that moves down the tree as decisions are made. It gets each va
 
 ## Authors
 
-* **Billie Thompson** 
+* **Collin Everman** 
 
 ## Acknowledgments
 
