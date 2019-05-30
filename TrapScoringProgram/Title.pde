@@ -2,7 +2,8 @@ public class Title{
   
   public void display(){
      textSize(72);
-     text("Trap Team Scoring", 175, 75);
+     textAlign(CENTER);
+     text("Trap Team Scoring", 500, 75);
   
   }
 }

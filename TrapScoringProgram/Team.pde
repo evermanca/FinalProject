@@ -5,13 +5,12 @@ public class Team{
   }
   
   public void display(){
-    textSize(18);
-    text("Team Name:", 25, 175, 160);
-    text(typed, 150, 175, 160);
+    textSize(18);  
+    textAlign(LEFT);
+    text("Team Name:", 75, 150);
+    text(typed, 190, 150);
+    
     
     
   }
- 
-
-  
 }
