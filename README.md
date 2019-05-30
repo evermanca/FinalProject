@@ -5,31 +5,42 @@ This program will take in each athlete's weekly round scores, and calculate aver
 
 ### Difficulties or opportunities you encountered along the way.
 
-The toughest part was...
+The toughest part was getting each athlete to print to the screen on a chart. It was also difficult to create text on the screen from keyboard inputs. 
 
 ### Most interesting piece of your code and explanation for what it does.
-
-```Java
-void keyPressed() {
-if (keyCode == LEFT) {
-   tree= tree.getLeft();
-   System.out.println(tree.getValue());
-   String s=(String)tree.getValue();
-   fill(155);
-   textSize(50);
-} else if (keyCode == RIGHT) {
-   tree = tree.getRight();
-   System.out.println(tree.getValue());
-   String s=(String)tree.getValue();
-   fill(155);
-   textSize(50);
-} else if (tree.getLeft()==null&&tree.getRight()==null) {
-   System.out.println(tree.getValue());
-   tree=t.returnTree();
-}
-}
-```
-This is the code that moves down the tree as decisions are made. It gets each value from both left and right and also casts the value to a String. If the progressions arrives at the leaf nodes, those values are printed.
+ public void Entry(){
+    if(count==1){
+      textSize(18);
+      textAlign(LEFT);
+      text("Enter an Athlete?", 75, 160);
+      text(typed,250,160);
+    }
+     if(cont.trim().equals("no")){
+      text("Thanks for Visiting!",500,180);
+      exit();
+    }
+    if(cont.trim().equalsIgnoreCase("yes")){
+      textSize(18);
+       if(count==2){  
+         textAlign(LEFT);textSize(18);
+         text("Enter Athlete's Name: ", 75, 160);
+         text(typed, 270, 160);
+       }
+    
+    if(count==3){
+      textAlign(LEFT);
+      text("Enter first round score:",75,160);
+      text(typed, 285, 160);      
+     }
+     
+    if(count==4){
+      textAlign(LEFT);
+      text("Enter second round score:",75,160);
+       text(typed,310, 160);
+    }
+    }
+ 
+This code performs the main function of the program, and takes in each athlete's data. A series of other methods would print out the text of these inputs in a chart. 
 ## Built With
 
 * [Processing](https://processing.org/) - The IDE used
