@@ -8,7 +8,9 @@ This program will take in each athlete's weekly round scores, and calculate aver
 The toughest part was getting each athlete to print to the screen on a chart. It was also difficult to create text on the screen from keyboard inputs. 
 
 ### Most interesting piece of your code and explanation for what it does.
- public void Entry(){
+
+    
+    public void Entry(){
     if(count==1){
       textSize(18);
       textAlign(LEFT);
@@ -26,7 +28,6 @@ The toughest part was getting each athlete to print to the screen on a chart. It
          text("Enter Athlete's Name: ", 75, 160);
          text(typed, 270, 160);
        }
-    
     if(count==3){
       textAlign(LEFT);
       text("Enter first round score:",75,160);
